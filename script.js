@@ -15,7 +15,7 @@ function login() {
     // Verifica la contraseña (puedes cambiarla según sea necesario)
     if (password === '123456') {
         closeModal(); // Cierra el modal si la contraseña es correcta
-        window.location.href = 'index.html'; 
+        window.location.href = 'index1.html'; 
     } else {
         alert('Contraseña incorrecta. Intenta de nuevo.'); // Muestra un mensaje de error
     }
