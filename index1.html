@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style2.css"> 
+</head>
+<body>
+    <!-- Contenido de la página de login -->
+
+    <!-- Modal de Login -->
+<div id="login-modal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <h2>Iniciar sesión</h2>
+        <form>
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" placeholder="Ingresa tu contraseña" required>
+            <button type="button" onclick="login()">Entrar</button>
+        </form>
+    </div>
+</div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

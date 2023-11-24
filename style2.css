@@ -1,0 +1,78 @@
+/* Estilos para el modal y el fondo */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('ecommerce.jpg') center/cover fixed; /* Cambia 'ruta/de/la/imagen.jpg' con la ruta de tu imagen */
+    color: #ecf0f1;
+    text-align: center;
+}
+
+/* Estilos para el modal */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content { 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: transparent; /* Fondo completamente transparente para el modal */
+    padding: 20px;
+    border-radius: 10px;
+    color: #ecf0f1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Estilos adicionales según sea necesario */
+/* Estilos para el modal */
+
+
+
+/* Estilo para el formulario dentro del modal */
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: calc(100% - 20px); /* Ajusta el ancho del input restando 20px para el padding */
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #3498db; /* Azul claro */
+    color: #ecf0f1; /* Texto blanco */
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9; /* Azul un poco más oscuro al pasar el ratón */
+}
+

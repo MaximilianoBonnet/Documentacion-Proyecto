@@ -1,0 +1,179 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #2c3e50, #3498db); /* Fondo azul en degradado */
+    color: #ecf0f1;
+    text-align: center;
+}
+
+header {
+    background-color: #34495e;
+    color: #fff;
+    padding: 1em;
+}
+
+header img {
+    max-width: 100px;
+    height: auto;
+    margin-top: 10px;
+}
+
+nav {
+    background-color: #2c3e50;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #34495e;
+    color: #fff;
+    padding: 1em;
+}
+
+/* Estilos para la sección de índice */
+main section#indice {
+    text-align: center;
+}
+
+main section#indice ul {
+    margin: 0;
+    padding: 0;
+}
+
+main section#indice li {
+    margin-bottom: 10px;
+}
+
+main section#indice a {
+    color: #f2c2a3;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+main section#indice a:hover {
+    color: #3498db;
+}
+
+/* Estilos para cada sección de tema */
+main section {
+    margin: 20px auto; /* Centra cada sección */
+    max-width: 800px; /* Limita el ancho para mejorar la legibilidad */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilo para los títulos de las secciones de tema */
+main section h2 {
+    color: #2c3e50;
+}
+
+/* Estilo para los párrafos de las secciones de tema */
+main section p {
+    color: #34495e;
+}
+
+/* Estilos para la sección de tarjetas (card-deck) en Tema 1 */
+main section#tema-1 .card-deck {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #5f925f; 
+}
+
+/* Estilos para cada tarjeta (card) en Tema 1 
+main section#tema-1 .card {
+    flex: 1; /* Hace que todas las tarjetas tengan el mismo tamaño 
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave 
+    border-radius: 10px; /* Bordes redondeados 
+    overflow: hidden;
+    background-color: #6f6b6b; /* Color de fondo plateado
+    transform: perspective(1000px) rotateX(20deg); /* Efecto tridimensional 
+    transition: transform 0.5s;
+}
+
+main section#tema-1 .card:hover {
+    transform: perspective(1000px) rotateX(0deg); /* Efecto tridimensional en hover 
+}
+
+main section#tema-1 .card img {
+    max-width: 100%; /* Imágenes dentro de las tarjetas al 100% del ancho 
+    height: auto;
+}
+
+main section#tema-1 .card-body {
+    padding: 15px;
+}
+
+main section#tema-1 .card-title {
+    color: #2c3e50;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+main section#tema-1 .card-text {
+    color: #34495e;
+}
+
+
+/* Estilos para la sección de tarjetas (card-deck) en Tema 1 */
+main section#tema-1 .card-deck {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* Estilos para cada tarjeta (card) en Tema 1 */
+main section#tema-1 .card {
+    flex: 0 0 300px; /* Fuerza un ancho fijo de 300px para todas las tarjetas */
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden;
+    background-color: #f1f1f1; /* Color de fondo plateado */
+    transform: perspective(1000px) rotateX(20deg); /* Efecto tridimensional */
+    transition: transform 0.5s;
+}
+
+main section#tema-1 .card:hover {
+    transform: perspective(1000px) rotateX(0deg); /* Efecto tridimensional en hover */
+}
+
+main section#tema-1 .card img {
+    max-width: 100%; /* Imágenes dentro de las tarjetas al 100% del ancho */
+    height: auto;
+}
+
+main section#tema-1 .card-body {
+    padding: 15px;
+}
+
+main section#tema-1 .card-title {
+    color: #2c3e50;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+main section#tema-1 .card-text {
+    color: #34495e;
+}
