@@ -43,6 +43,7 @@ footer {
     background-color: #34495e;
     color: #fff;
     padding: 1em;
+    text-align: center
 }
 
 /* Estilos para la sección de índice */
@@ -60,7 +61,7 @@ main section#indice li {
 }
 
 main section#indice a {
-    color: #f2c2a3;
+    color: #100f0f;
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s;
@@ -74,7 +75,7 @@ main section#indice a:hover {
 main section {
     margin: 20px auto; /* Centra cada sección */
     max-width: 800px; /* Limita el ancho para mejorar la legibilidad */
-    background-color: #fff;
+    background-color: #c0bebe;
     padding: 20px;
     border-radius: 10px; /* Bordes redondeados */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
@@ -96,42 +97,6 @@ main section#tema-1 .card-deck {
     flex-wrap: wrap;
     justify-content: center;
     background-color: #5f925f; 
-}
-
-/* Estilos para cada tarjeta (card) en Tema 1 
-main section#tema-1 .card {
-    flex: 1; /* Hace que todas las tarjetas tengan el mismo tamaño 
-    margin: 10px;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave 
-    border-radius: 10px; /* Bordes redondeados 
-    overflow: hidden;
-    background-color: #6f6b6b; /* Color de fondo plateado
-    transform: perspective(1000px) rotateX(20deg); /* Efecto tridimensional 
-    transition: transform 0.5s;
-}
-
-main section#tema-1 .card:hover {
-    transform: perspective(1000px) rotateX(0deg); /* Efecto tridimensional en hover 
-}
-
-main section#tema-1 .card img {
-    max-width: 100%; /* Imágenes dentro de las tarjetas al 100% del ancho 
-    height: auto;
-}
-
-main section#tema-1 .card-body {
-    padding: 15px;
-}
-
-main section#tema-1 .card-title {
-    color: #2c3e50;
-    font-size: 1.5em;
-    margin-bottom: 10px;
-}
-
-main section#tema-1 .card-text {
-    color: #34495e;
 }
 
 
