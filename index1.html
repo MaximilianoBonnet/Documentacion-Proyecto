@@ -3,26 +3,200 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="style2.css"> 
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <title>Done Deal</title>
 </head>
 <body>
-    <!-- Contenido de la página de login -->
 
-    <!-- Modal de Login -->
-<div id="login-modal" class="modal">
-    <div class="modal-content">
-        <span class="close" onclick="closeModal()">&times;</span>
-        <h2>Iniciar sesión</h2>
-        <form>
-            <label for="password">Contraseña:</label>
-            <input type="password" id="password" placeholder="Ingresa tu contraseña" required>
-            <button type="button" onclick="login()">Entrar</button>
-        </form>
+    <header>
+        <h1>Done Deal</h1>
+        <img src="logo.png" alt="Logo del Proyecto">
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#indice"><h3>Planificación del Proyecto </h3></a></li>
+            <!-- Agrega más enlaces según tu estructura de documentación -->
+        </ul>
+    </nav>
+
+    <main>
+        <section id="indice">
+            <h2>indice</h2>
+            <ul>
+                <li><a href="#tema-0">Pautas de Planificación del Proyecto</a></li>
+                <li><a href="#tema-1">Equipo</a></li>
+                <li><a href="#tema-2">Tecnologias</a></li>
+                <li><a href="#tema-3">Plataforma DondeDeal</a></li>
+                <li><a href="#tema-4">Planificación en Forma de Sprints utilizando Metodología Ágil</a></li>
+                <li><a href="#tema-5">Historia de usuario</a></li>
+                <!-- Agrega más enlaces según tus temas -->
+            </ul>
+        </section>
+
+                    
+           <!-- Sección para cada tema -->
+<section id="tema-0">
+    <h2>Pautas de Planificación del Proyecto</h2>
+    <h5>IFTS 16 SEMINARIO II</h5>														<h5>Lic. Gustavo E. Escandell</h5>	  
+       <p>1. Formar grupos entre 4 y 6 alumnos, si es de menos se considerará, pero lo más recomendable es la cantidad de alumnos mencionada. </p> 
+       <p>2. Se deberá distinguir los roles de cada una de las personas involucradas en el sistema que va a presentar.</p>
+       <p>3. Mínimo deberá contener una historia de usuario solicitando ese requerimiento</p> 
+       <p>4. Mostrar los objetivos y el alcance del sistema </p>
+       <p>5. Realizar una breve especificación técnica del sistema que van a realizar </p>
+       <p>6. Mostrar la metodología utilizada justificando la misma. </p>
+       <p>7. Mostrar la planificación del mismo </p>
+       <p>8. Mostrar los requerimientos del usuario con el sistema </p>
+       <p>9. Mostrar los riesgos que encontraron a la hora de hacer el trabajo práctico </p>
+       <p>10. Mostrar los usuarios que van a interactuar con el sistema (Diagramas de caso de uso)</p>
+       <p>11. Mostrar las clases del sistema (Diagrama de clases) </p>
+       <p>12. Parte Práctica a. Deberá realizar un sistema web con el lenguaje a elección de usted, puede usar: i. Python ii. Java iii. JavaScript iv. .Net v. Entre otros b. El mismo sistema deberá contener una base de datos puede usar ya sea en: i. ORACLE ii. MaríaDb iii. MySql iv. Sql Server v. Posgrest SQL </p>
+       <p>13. Una vez entregada la carpeta del proyecto deberá hacer una breve exposición explicando a sus compañeros que fue lo que se ha realizado en la fecha que usted va a realizar el final de la materia. </p>
+        
+    <!-- Espacio para describir el Tema 0 -->
+</section>
+<section id="tema-1">
+    <h2>Equipo</h2>
+    <p>Composicion del Equipo</p>
+
+    <!-- Cuadros (Tarjetas) Bootstrap -->
+    <div class="card-deck">
+        <div class="card">
+           
+            <div class="card-body">
+                <h5 class="card-title">Maximiliano Bonnet</h5>
+                <p class="card-text">Lider de Equipo</p>
+            </div>
+        </div>
+        <div class="card">
+            
+            <div class="card-body">
+                <h5 class="card-title">Cristian Jelovcic</h5>
+                <p class="card-text">Líder técnico</p>
+            </div>
+        </div>
     </div>
-</div>
+
+    <div class="card-deck">
+        <div class="card">
+            
+            <div class="card-body">
+                <h5 class="card-title">Jesus Arias</h5>
+                <p class="card-text">Developer</p>
+            </div>
+        </div>
+        <div class="card">
+            
+            <div class="card-body">
+                <h5 class="card-title">Esteban Ferrari</h5>
+                <p class="card-text">Developer</p>
+            </div>
+        </div>
+        <div class="card">
+            
+            <div class="card-body">
+                <h5 class="card-title">Cinthia Sabino</h5>
+                <p class="card-text">Analista funcional</p>
+            </div>
+        </div>
+    </div>
+</section>
+        
+
+        <section id="tema-2">
+            <h2>Tecnologias</h2>
+            <p>Descripción del Tema 2...</p>
+            <!-- Espacio para describir el Tema 2 -->
+        </section>
+        
+        <section id="tema-3">
+            <h2>Alcance del Proyecto:</h2>
+            <h4>1. Objetivo del Proyecto:<h4>
+
+            </h4>
+                Desarrollar una plataforma en línea, denominada DondeDeal, que utilice tecnología avanzada para proporcionar a los usuarios una herramienta eficiente para encontrar las mejores ofertas y precios de diversos productos en diferentes tiendas en línea.
+                2. Funcionalidades Principales:
+                2.1. Búsqueda de Productos:
+                Implementar un sistema de búsqueda robusto que permita a los usuarios buscar productos específicos.
+                Integrar un algoritmo de búsqueda inteligente que ofrezca resultados precisos y relevantes.
+                2.2. Navegación por Categorías:
+                Diseñar una interfaz intuitiva que permita a los usuarios navegar por categorías de productos.
+                Desarrollar una estructura de categorías jerárquica para facilitar la búsqueda.
+                2.3. Comparación de Precios:
+                Obtener información en tiempo real de diversas tiendas en línea sobre precios y ofertas. Presentar una interfaz de comparación de precios que muestre las opciones disponibles para un producto específico.
+                2.4. Perfiles de Usuario:
+                Crear perfiles de usuario para personalizar la experiencia de búsqueda.
+                Permitir a los usuarios guardar productos favoritos y recibir alertas de precios.
+                2.5. Integración de Tiendas:
+                Establecer conexiones con múltiples tiendas en línea para recopilar datos de productos y precios de manera efectiva.
+                Garantizar una integración segura y eficiente mediante API o mecanismos similares.
+                2.6. Filtrado Avanzado:
+                Implementar opciones de filtrado avanzado para refinar las búsquedas según criterios específicos, como marcas, descuentos, etc.</h4>
+            <!-- Espacio para describir el Tema 3 -->
+        </section>
+
+        <section id="tema-4">
+            <h2>Planificación en Forma de Sprints utilizando Metodología Ágil</h2>
+            <h5>Sprint 1: Definición y Configuración Inicial (Duración: 2 semanas)
+                En este sprint inicial, nos centraremos en establecer los fundamentos del proyecto DondeDeal. Se llevarán a cabo las siguientes tareas:</h5>
+              <p>●	Definición detallada de los requisitos del usuario y los casos de uso.</p>
+              <p>●	Configuración del entorno de desarrollo y elección de las tecnologías clave.</p>
+              <p>●	Creación de prototipos básicos de las interfaces de usuario para validar la experiencia del usuario.</p>
+            <h5>Sprint 2: Desarrollo del Sistema de Búsqueda (Duración: 3 semanas)
+                    En este sprint, nos enfocaremos en implementar la funcionalidad de búsqueda, un componente crítico de DondeDeal. Las tareas específicas incluyen:</h5>
+              <p>●  Desarrollo del sistema de búsqueda, con algoritmos inteligentes para proporcionar resultados precisos.</p>
+              <p>●	Implementación de la interfaz de usuario para la búsqueda de productos y navegación por categorías.</p>
+              <p>●	Integración inicial con algunas tiendas en línea para pruebas de concepto.</p>
+            <h5>Sprint 3: Funcionalidades de Comparación de Precios y Filtrado (Duración: 3 semanas)
+                    Este sprint se centrará en mejorar la capacidad de comparación de precios y agregar funciones avanzadas de filtrado. Las actividades principales serán:</h5>    
+              <p>● 	Desarrollo de la interfaz de comparación de precios.</p>
+              <p>●	Implementación de opciones de filtrado avanzado.</p>
+              <p>●  Extensión de la integración con tiendas para garantizar datos precisos y actualizados.</p>
+    
+            <h5>Sprint 4: Perfiles de Usuario y Personalización (Duración: 2 semanas)
+                En este sprint, nos concentraremos en la creación de perfiles de usuario y funciones de personalización. Las tareas clave incluyen:</h5>              
+              <p>●	Diseño e implementación de perfiles de usuario.</p>
+              <p>●	Desarrollo de la funcionalidad de guardado de productos favoritos y alertas de precios.</p>
+              <p>●	Pruebas de usabilidad para garantizar una experiencia fluida del usuario.</p>
+
+            <h5>Sprint 5: Optimización y Seguridad (Duración: 2 semanas)
+                Durante este sprint, nos enfocaremos en optimizar el rendimiento del sistema y fortalecer la seguridad. Las actividades específicas serán:</h5>              
+              <p>●  Optimización del rendimiento para garantizar tiempos de carga rápidos.</p>
+              <p>●	Implementación de medidas de seguridad adicionales, como autenticación segura y encriptación de datos.</p>
+              <p>●	Revisiones de código para garantizar buenas prácticas de desarrollo.</p>
+            
+            <h5>Sprint 6: Pulido Final y Preparación para el Lanzamiento (Duración: 2 semanas)
+              Este sprint final estará dedicado a realizar ajustes finales, correcciones de errores y preparación para el lanzamiento. Las tareas principales incluyen:</h5>
+              <p>●	Corrección de errores y refinamiento de la interfaz de usuario.</p>
+              <p>●	Pruebas exhaustivas para identificar posibles problemas.</p>
+              <p>●	Creación de documentación detallada para el código y manuales de usuario.</p>
 
 
-    <script src="script.js"></script>
+        </section>
+        <section id="tema-5">
+            <h2>Historia de Usuario</h2>
+            <h5>Contexto:</h5>
+                <p>Se requiere crear un login de usuario, para eso precisamos disponibilizar el endpoint con los atributos de usuario. Crear un FE de login con el campo username y password. Con los botones para ingresar y otro recuperar contraseña.</p>
+                
+            <h5>Requerimientos del FE:</h5>
+                
+                <p>-Crear un campo usuario y debajo, un campo password.</p>
+                <p></p>-Crear botón para ingresar y otro para recuperar contraseña
+                <p></p>-El botón para ingresar se debe mantener bloqueado hasta que detecte que estén los dos campos completos.
+                
+                
+            
+        </section>
+        <!-- Agrega más secciones según tus temas -->
+    </main>
+
+    <footer>
+        <p>© 2023 DoneDeal</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
 </body>
 </html>
