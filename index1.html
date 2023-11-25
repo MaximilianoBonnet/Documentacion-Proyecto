@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="Documentacion-Proyecto\script.js"></script>
     <title>Done Deal</title>
 </head>
 <body>
@@ -28,13 +29,13 @@
                 <li><a href="#tema-0">Pautas de Planificación del Proyecto</a></li>
                 <li><a href="#tema-1">Equipo</a></li>
                 <li><a href="#tema-2">Tecnologias</a></li>
-                <li><a href="#tema-3">Plataforma DondeDeal</a></li>
+                <li><a href="#tema-3">Plataforma DondeDeal (alcance y objetivos)</a></li>
                 <li><a href="#tema-4">Planificación en Forma de Sprints utilizando Metodología Ágil</a></li>
-                <li><a href="#tema-5">Historia de usuario</a></li>
-                <li><a href="#tema-6">Gestion de Problemas</a></li>
+                <li><a href="#tema-5">Historia de usuario/Requerimientos del Usuario/Casos de Uso</a></li>
+                <li><a href="#tema-6">Gestion de Riesgos</a></li>
                 <li><a href="#tema-7">Análisis de Riesgos para el Proyecto DondeDeal</a></li>
-                <li><a href="#tema-8">nombre</a></li>
-                <li><a href="#tema-9">nombre</a></li>
+                <li><a href="#tema-8">Procedimientos de Gestión</a></li>
+                
                 <!-- Agrega más enlaces según tus temas -->
             </ul>
         </section>
@@ -44,79 +45,483 @@
 <section id="tema-0">
     <h2>Pautas de Planificación del Proyecto</h2>
     <!--<h5>Taller</h5>														<h5>Lic. Gustavo E. Escandell</h5>-->	  
-       <p>1. Formar grupos entre 4 y 6 alumnos, si es de menos se considerará, pero lo más recomendable es la cantidad de alumnos mencionada. </p> 
-       <p>2. Se deberá distinguir los roles de cada una de las personas involucradas en el sistema que va a presentar.</p>
-       <p>3. Mínimo deberá contener una historia de usuario solicitando ese requerimiento</p> 
-       <p>4. Mostrar los objetivos y el alcance del sistema </p>
-       <p>5. Realizar una breve especificación técnica del sistema que van a realizar </p>
-       <p>6. Mostrar la metodología utilizada justificando la misma. </p>
-       <p>7. Mostrar la planificación del mismo </p>
-       <p>8. Mostrar los requerimientos del usuario con el sistema </p>
-       <p>9. Mostrar los riesgos que encontraron a la hora de hacer el trabajo práctico </p>
-       <p>10. Mostrar los usuarios que van a interactuar con el sistema (Diagramas de caso de uso)</p>
-       <p>11. Mostrar las clases del sistema (Diagrama de clases) </p>
-       <p>12. Parte Práctica a. Deberá realizar un sistema web con el lenguaje a elección de usted, puede usar: i. Python ii. Java iii. JavaScript iv. .Net v. Entre otros b. El mismo sistema deberá contener una base de datos puede usar ya sea en: i. ORACLE ii. MaríaDb iii. MySql iv. Sql Server v. Posgrest SQL </p>
-       <p>13. Una vez entregada la carpeta del proyecto deberá hacer una breve exposición explicando a sus compañeros que fue lo que se ha realizado en la fecha que usted va a realizar el final de la materia. </p>
+       <h5>1. Formar grupos entre 4 y 6 alumnos, si es de menos se considerará, pero lo más recomendable es la cantidad de alumnos mencionada. </h5>
+       <p>Equipo formado ver: <li><a href="#tema-1">Equipo</a></li></p> 
+       <h5>2. Se deberá distinguir los roles de cada una de las personas involucradas en el sistema que va a presentar.</h5>
+       <p>Roles:<li><a href="#tema-1">Equipo</a></li> </p>
+       <h5>3. Mínimo deberá contener una historia de usuario solicitando ese requerimiento</h5> 
+       <p>Historia de usuario: <li><a href="#tema-5">Historia de usuario</a></li></p>
+       <h5>4. Mostrar los objetivos y el alcance del sistema </h5>
+       <p>Objetivos: <li><a href="#tema-3">Plataforma DondeDeal (alcance y objetivos)</a></li></p>
+       <p>alcance: <li><a href="#tema-3">Plataforma DondeDeal (alcance y objetivos)</a></li></p>
+       <h5>5. Realizar una breve especificación técnica del sistema que van a realizar </h5>
+       <p>Tecnologias: <li><a href="#tema-2">Tecnologias</a></li></p>
+       <h5>6. Mostrar la metodología utilizada justificando la misma. </h5>
+       <p>meotodologia utilizada: <li><a href="#tema-4">Planificación en Forma de Sprints utilizando Metodología Ágil</a></li></p>
+       <h5>7. Mostrar la planificación del mismo </h5>
+       <p>Implementación:<li><a href="#tema-4">Planificación en Forma de Sprints utilizando Metodología Ágil</a></li></p>
+       <h5>8. Mostrar los requerimientos del usuario con el sistema </h5>
+       <li><a href="#tema-5">Historia de usuario/Requerimientos del Usuario/Casos de Uso</a></li>
+       <button onclick="descargarArchivo()">Descargar Archivo</button>
+       <h5>9. Mostrar los riesgos que encontraron a la hora de hacer el trabajo práctico </h5>
+       <p>Gestion de riesgos: <li><a href="#tema-6">Gestion de Riesgos</a></li></p>
+       <p>Analisis de riesgos:<li><a href="#tema-7">Análisis de Riesgos para el Proyecto DondeDeal</a></li></p>
+       <h5>10. Mostrar los usuarios que van a interactuar con el sistema (Diagramas de caso de uso)</h5>
+       <p><li><a href="#tema-5">Historia de usuario/Requerimientos del Usuario/Casos de Uso</a></li></p>
+       <h5>11. Mostrar las clases del sistema (Diagrama de clases) </h5>
+       <h5>12. Parte Práctica a. Deberá realizar un sistema web con el lenguaje a elección de usted, puede usar: i. Python ii. Java iii. JavaScript iv. .Net v. Entre otros b. El mismo sistema deberá contener una base de datos puede usar ya sea en: i. ORACLE ii. MaríaDb iii. MySql iv. Sql Server v. Posgrest SQL </h5>
+       <p>Proyecto en github: <li><a href="https://github.com/Jebusx33/ifts16-taller3-tienda">Parte Práctica</a></li></p>
+       <p><li><a href="#tema-2">Tecnologias</a></li></p>
+       <h5>13. Una vez entregada la carpeta del proyecto deberá hacer una breve exposición explicando a sus compañeros que fue lo que se ha realizado en la fecha que usted va a realizar el final de la materia. </h5>
         
     <!-- Espacio para describir el Tema 0 -->
-</section>
-<section id="tema-1">
-    <h2>Equipo</h2>
-    <p>Composicion del Equipo</p>
+    <section id="tema-1">
+        <h2>Equipo</h2>
+        <p>Composición del Equipo</p>
+    
+        <!-- Cuadros (Tarjetas) Bootstrap -->
+        <div class="card-deck">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Maximiliano Bonnet</h5>
+                    <h3 class="card-text">Lider de Equipo</h3>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#maximilianoModal">
+                        Ver Descripción
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Otras tarjetas con botones similares -->
+            <div class="card">
+            
+                <div class="card-body">
+                    <h5 class="card-title">Cristian Jelovcic</h5>
+                    <h3 class="card-text">Líder técnico</h3>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#cristianModal">
+                        Ver Descripción
+                    
+                    </button>
+                </div>
+            </div>
+            <div class="card-deck">
+                <div class="card">
+                    
+                    <div class="card-body">
+                        <h5 class="card-title">Jesus Arias</h5>
+                        <h3 class="card-text">Developer FE</h3>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#jesusModal">
+                            Ver Descripción
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    
+                    <div class="card-body">
+                        <h5 class="card-title">Esteban Ferrari</h5>
+                        <h3 class="card-text">Developer BE</h3>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#estebanModal">
+                            Ver Descripción
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    
+                    <div class="card-body">
+                        <h5 class="card-title">Cinthia Sabino</h5>
+                        <h3 class="card-text">Analista funcional</h3>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#cinthiaModal">
+                            Ver Descripción
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Modales -->
+        <div class="modal fade" id="maximilianoModal" tabindex="-1" role="dialog" aria-labelledby="maximilianoModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="maximilianoModalLabel">Descripción de Maximiliano Bonnet</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <!-- Contenido de la descripción -->
+                        <h6>Gestión de Proyectos:</h6>
+                        <p>Supervisar y coordinar proyectos de TI, asegurando que se completen a tiempo y dentro del presupuesto.</p> 
+                        <h6>Gestión de Recursos:</h6>
+                        <p>Asignar y gestionar eficientemente los recursos del equipo, incluyendo personal, tiempo y tecnología.</p>
+                        <h6>Desarrollo de Equipos:</h6>
+                        <p>Fomentar el desarrollo profesional y el crecimiento del equipo, proporcionando capacitación y oportunidades de aprendizaje.</p>
+                        <h6>Coordinación Interdepartamental:</h6>
+                        <p>Colaborar con otros departamentos para comprender y abordar las necesidades tecnológicas de la organización.</p>
+                        <h6>Gestión de Incidentes:</h6>
+                        <p>Supervisar la resolución de problemas y la gestión de incidentes, asegurando una respuesta rápida y eficaz a problemas técnicos.</p>
+                        <h6>Planificación Estratégica:</h6>
+                        <p>Contribuir a la planificación estratégica de TI, alineando las metas del equipo con los objetivos generales de la organización.</p>
+                        <h6>Gestión del Cambio:</h6>
+                        <p>Facilitar la implementación de cambios en la infraestructura y los sistemas, minimizando el impacto en las operaciones.</p>
+                        <h6>Gestión del Rendimiento:</h6>
+                        <p>Evaluar y gestionar el rendimiento del equipo, proporcionando retroalimentación y apoyo en el desarrollo profesional.</p>
+                        <h6>Seguridad de la Información:</h6>
+                        <p>Garantizar la implementación y el cumplimiento de medidas de seguridad de la información para proteger los activos de la organización.</p>
+                        <h6></h6>Colaboración con Proveedores:
+                        <p>Colaborar con proveedores de servicios y tecnología para garantizar la efectividad y eficiencia de las soluciones implementadas.</p>
+                        <h6>Cumplimiento Normativo:</h6>
+                        <p>Asegurar que el equipo cumple con las normativas y estándares relevantes en el ámbito de la TI.</p>
+                        <h6>Gestión de Presupuesto:</h6>
+                        <p>Participar en la planificación y gestión del presupuesto de TI, optimizando el uso de los recursos disponibles.</p>
+                       <h6>Gestión de Relaciones con Clientes Internos:</h6>
+                        <p>Mantener relaciones efectivas con los usuarios y clientes internos para comprender sus necesidades y expectativas.</p>
+                        <h6>Optimización de Procesos:</h6>
+                        <p>Identificar oportunidades para la mejora y la optimización de procesos dentro del equipo y la infraestructura de TI.</p>
+                        <h6>Resolución de Conflictos:</h6>
+                        <p>Abordar y resolver conflictos dentro del equipo, fomentando un ambiente colaborativo y productivo.</p>
+                        <h6>Evaluación de Tecnologías:</h6>
+                        <p>Evaluar nuevas tecnologías y herramientas que puedan mejorar la eficiencia y la efectividad de los sistemas de la organización.</p>
+                        <p>El liderazgo efectivo en sistemas requiere una combinación de habilidades técnicas, habilidades de gestión y competencias interpersonales. El líder del equipo de sistemas actúa como un puente entre los objetivos organizativos y la implementación efectiva de soluciones tecnológicas.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="cristianModal" tabindex="-1" role="dialog" aria-labelledby="cristianModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="cristianModalLabel">Descripción de Cristian Jelovcic</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <!-- Contenido de la descripción -->
+                        <h6>Supervisión Técnica:</h6>
+                        <p>Supervisar y liderar el equipo técnico, brindando orientación y apoyo en asuntos técnicos.</p>
+                        <h6>Planificación y Estrategia:</h6>
+                        <p>Colaborar con otros líderes y partes interesadas para establecer la visión técnica y la estrategia a largo plazo del proyecto o sistema.
+                        </p>
+                        <h6>Toma de Decisiones Técnicas:
+                        </h6>
+                        <p>Participar en la toma de decisiones clave relacionadas con la arquitectura, tecnologías, herramientas y enfoques de desarrollo.
+                        </p>
+                        <h6>Diseño de Sistemas:
+                        </h6>
+                        <p>Contribuir al diseño y arquitectura de sistemas, asegurando la coherencia y la eficiencia.
+                        </p>
+                        <h6>Estándares y Mejores Prácticas:
+                        </h6>
+                        <p>Establecer y hacer cumplir estándares de codificación y mejores prácticas dentro del equipo.
+                        </p>
+                        <h6>Resolución de Problemas Técnicos:
+                        </h6>
+                        <p>Resolver problemas técnicos complejos y proporcionar orientación a los miembros del equipo en la resolución de problemas.
+                        </p>
+                        <h6>Gestión del Rendimiento:
+                        </h6>
+                        <p>Evaluar y gestionar el rendimiento técnico de los miembros del equipo, proporcionando retroalimentación y desarrollando habilidades técnicas.
+                        </p>
+                        <h6>Colaboración Interdepartamental:
+                        </h6>
+                        <p>Colaborar con otros departamentos, como QA, operaciones y gestión de proyectos, para garantizar una entrega exitosa del proyecto.
+                        </p>
+                        <h6>Evaluación de Tecnologías Emergentes:
+                        </h6>
+                        <p>Investigar y evaluar nuevas tecnologías que puedan mejorar la eficiencia y la efectividad del equipo y del proyecto.
+                        </p>
+                        <h6>Capacitación y Desarrollo:
+                        </h6>
+                        <p>Facilitar la capacitación y el desarrollo profesional del equipo para mantenerlos actualizados con las últimas tendencias tecnológicas.
+                        </p>
+                        <h6>Gestión de Riesgos Técnicos:
+                        </h6>
+                        <p>Identificar y gestionar los riesgos técnicos para garantizar que se aborden de manera proactiva.
+                        </p>
+                        <h6>Comunicación Efectiva:
+                        </h6>
+                        <p>Comunicar de manera efectiva la visión técnica, los objetivos y los requisitos a los miembros del equipo y otras partes interesadas.
+                        </p>
+                        <h6>Mentoría:
+                        </h6>
+                        <p>Actuar como mentor para los miembros menos experimentados del equipo, proporcionando orientación y apoyo.
+                        </p>
+                        <h6>Evaluación de Tecnologías:
+                        </h6>
+                        <p>Evaluar continuamente las tecnologías emergentes y su aplicabilidad para mejorar los procesos y la eficiencia del equipo.
+                        </p>
+                        <p>El líder técnico no solo es un experto en tecnología, sino también un líder efectivo que puede motivar y guiar al equipo hacia el éxito. La combinación de habilidades técnicas y habilidades de liderazgo es esencial para este rol.
+                        
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="jesusModal" tabindex="-1" role="dialog" aria-labelledby="jesusModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="jesusModalLabel">Descripción de Jesus Arias</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <!-- Contenido de la descripción -->
+                   
+                    <h6>Desarrollo Front-end:</h6>
+                    <p>Especialización en el desarrollo de la interfaz de usuario de aplicaciones web y sitios.
+                    </p>
+                    <h6>Implementación de Diseños:</h6>
+                    <p>Traducir diseños de UI/UX en código</p>
+                    <h6> Desarrollo Responsivo:</h6>
+                    <p>Garantizar que las aplicaciones sean visualmente atractivas y funcionales en una variedad de dispositivos y tamaños de pantalla.</p>
+                    <h6>Optimización de Rendimiento:</h6>
+                    <p>Mejorar el rendimiento de las aplicaciones front-end, optimizando el código y gestionando eficientemente los recursos.
+                    </p>
+                    <h6>Frameworks Front-end:</h6>
+                    <p>Experiencia con frameworks front-end populares como React, Angular o Vue.js.</p>
+                    <h6>Colaboración con Diseñadores:</h6>
+                    <p>Trabajar en estrecha colaboración con diseñadores para garantizar la implementación precisa de la interfaz de usuario.</p>
+                    <h6>Interactividad y Animaciones:</h6>
+                    <p>Agregar interactividad y animaciones a las interfaces para mejorar la experiencia del usuario.</p>
+                    <h6>Integración con Back-end:</h6>
+                    <p>Colaborar con desarrolladores back-end para integrar la interfaz de usuario con la lógica del servidor.</p>
+                    <h6>Pruebas y Depuración:</h6>
+                    <p>Realizar pruebas unitarias y depurar problemas front-end para garantizar la calidad del software</p>
+                    <h6>Adherencia a Estándares:</h6>
+                    <p>Garantizar el cumplimiento de estándares y mejores prácticas de desarrollo front-end</p>
+                    <h6>Mantenimiento y Actualización:</h6>
+                    <p>Realizar tareas de mantenimiento y actualizar interfaces existentes según sea necesario.</p>
+                    <h6>Tecnologías Emergentes:</h6>
+                    <p>Mantenerse actualizado con las últimas tendencias y tecnologías en desarrollo front-end.</p>
+                    <h6>Documentación:</h6>
+                    <p>Crear documentación clara y detallada para el código y las implementaciones front-end.</p>
+                    <h6>Capacitación y Mentoría:</h6>
+                    <p>Brindar capacitación y mentoría a desarrolladores junior en el equipo.</p>
+                    <h6>Colaboración Interdisciplinaria:</h6>
+                    <p>Colaborar con otros miembros del equipo, incluidos diseñadores, desarrolladores back-end y equipos de QA.</p>
+                    <h6>Seguridad Front-end:</h6>
+                    <p>Concientización sobre las mejores prácticas de seguridad front-end para proteger contra posibles vulnerabilidades.</p>
+                    <h6>Optimización de Código:</h6>
+                    <p>Optimizar el código front-end para mejorar la eficiencia y la velocidad de carga.</p>
+                    
+                    <p>Un Senior Front-end Developer desempeña un papel crucial en la creación de interfaces de usuario efectivas y atractivas, trabajando en colaboración con otros miembros del equipo para lograr los objetivos del proyecto.</p>
+                    
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="estebanModal" tabindex="-1" role="dialog" aria-labelledby="estebanModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="estebanModalLabel">Descripción de Esteban Ferrari</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <!-- Contenido de la descripción -->
+                        <h6></h6>
+                    <p></p>
+                    <h6></h6>
+                    <p></p>
+                    <h6></h6>
+                    <p></p>
+                    <h6></h6>
+                    <p></p>
+                    <h6></h6>
+                    <p></p>
+                    <h6></h6>
+                    <p></p>
+                    <h6></h6>
+                    <p></p>
+                        <p>Desarrollo de Lógica del Servidor:
 
-    <!-- Cuadros (Tarjetas) Bootstrap -->
-    <div class="card-deck">
-        <div class="card">
-           
-            <div class="card-body">
-                <h5 class="card-title">Maximiliano Bonnet</h5>
-                <p class="card-text">Lider de Equipo</p>
+                            Implementar la lógica del servidor y los servicios web necesarios para la funcionalidad del sistema.
+                            Manejo de Datos:
+                            
+                            Diseñar y desarrollar sistemas de gestión de bases de datos para almacenar y recuperar datos de manera eficiente.
+                            Integración de Sistemas:
+                            
+                            Integrar sistemas y servicios externos para garantizar la interoperabilidad.
+                            Desarrollo de API:
+                            
+                            Diseñar y desarrollar API (Interfaces de Programación de Aplicaciones) para permitir la comunicación entre el front-end y el back-end.
+                            Seguridad:
+                            
+                            Implementar medidas de seguridad robustas para proteger contra amenazas y vulnerabilidades.
+                            Escalabilidad:
+                            
+                            Diseñar arquitecturas escalables que puedan manejar un aumento en la carga de usuarios.
+                            Optimización de Rendimiento:
+                            
+                            Optimizar consultas de bases de datos y código para mejorar el rendimiento del sistema.
+                            Desarrollo de Funcionalidades Complejas:
+                            
+                            Desarrollar funcionalidades complejas que involucren procesamiento de datos intensivo o algoritmos avanzados.
+                            Mantenimiento y Actualización:
+                            
+                            Realizar tareas de mantenimiento y actualizar el back-end según sea necesario.
+                            Tecnologías Emergentes:
+                            
+                            Mantenerse actualizado con las últimas tendencias y tecnologías en desarrollo back-end.
+                            Pruebas Unitarias:
+                            
+                            Escribir pruebas unitarias para garantizar la calidad y la estabilidad del código.
+                            Implementación de Seguridad:
+                            
+                            Aplicar prácticas de seguridad, como encriptación, autenticación y autorización.
+                            Documentación:
+                            
+                            Crear documentación detallada para el código y la arquitectura del back-end.
+                            Gestión de Errores:
+                            
+                            Implementar manejo de errores efectivo para proporcionar mensajes significativos y mejorar la resiliencia del sistema.
+                            Colaboración Interdisciplinaria:
+                            
+                            Colaborar estrechamente con desarrolladores front-end, diseñadores y otros miembros del equipo.
+                            Capacitación y Mentoría:
+                            
+                            Brindar capacitación y mentoría a desarrolladores más junior en el equipo.
+                            Cumplimiento Normativo:
+                            
+                            Asegurarse de que el desarrollo cumpla con los estándares y regulaciones aplicables.
+                            El Senior Back-end Developer desempeña un papel esencial en la construcción y el mantenimiento de sistemas robustos y eficientes que respaldan las aplicaciones y servicios del equipo.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="card">
-            
-            <div class="card-body">
-                <h5 class="card-title">Cristian Jelovcic</h5>
-                <p class="card-text">Líder técnico</p>
-            </div>
-        </div>
-    </div>
+        <div class="modal fade" id="cinthiaModal" tabindex="-1" role="dialog" aria-labelledby="cinthiaModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="cinthiaModalLabel">Descripción de Cinthia Sabino</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <!-- Contenido de la descripción -->
+                        <p>Recolección y Análisis de Requisitos:
 
-    <div class="card-deck">
-        <div class="card">
-            
-            <div class="card-body">
-                <h5 class="card-title">Jesus Arias</h5>
-                <p class="card-text">Developer</p>
+                            Colaborar con los stakeholders para comprender y documentar los requisitos del sistema.
+                            Modelado de Procesos:
+                            
+                            Crear modelos de procesos para representar de manera visual la interacción de los componentes del sistema.
+                            Prototipado:
+                            
+                            Desarrollar prototipos y maquetas para ayudar a visualizar las soluciones propuestas.
+                            Documentación:
+                            
+                            Crear documentación detallada de los requisitos y especificaciones del sistema.
+                            Validación de Requisitos:
+                            
+                            Validar los requisitos con los stakeholders para garantizar la comprensión y la precisión.
+                            Colaboración con Desarrollo:
+                            
+                            Trabajar en estrecha colaboración con los equipos de desarrollo para asegurar que las soluciones propuestas sean técnicamente factibles.
+                            Priorización de Funcionalidades:
+                            
+                            Colaborar con los stakeholders para priorizar y clasificar las funcionalidades del sistema.
+                            Evaluación de Impacto:
+                            
+                            Evaluar el impacto de los cambios en los requisitos y coordinar las actualizaciones necesarias.
+                            Gestión de Cambios:
+                            
+                            Administrar el proceso de gestión de cambios para asegurar que los cambios sean registrados y gestionados de manera efectiva.
+                            Pruebas de Aceptación:
+                            
+                            Participar en la definición de criterios de aceptación y pruebas para garantizar la conformidad con los requisitos.
+                            Colaboración con QA:
+                            
+                            Trabajar con el equipo de aseguramiento de la calidad (QA) para garantizar la calidad del software.
+                            Capacitación del Usuario:
+                            
+                            Proporcionar capacitación a los usuarios finales sobre las nuevas funcionalidades y cambios en el sistema.
+                            Gestión de Incidentes:
+                            
+                            Colaborar en la gestión de incidentes y problemas relacionados con los requisitos del sistema.
+                            Optimización de Procesos:
+                            
+                            Identificar oportunidades para mejorar la eficiencia y la efectividad de los procesos empresariales.
+                            Gestión de Riesgos:
+                            
+                            Identificar y gestionar los riesgos asociados con los requisitos del sistema.
+                            Mentoría:
+                            
+                            Brindar orientación y mentoría a analistas funcionales junior o miembros del equipo.
+                            Tendencias Tecnológicas:
+                            
+                            Mantenerse informado sobre las tendencias tecnológicas relevantes y su impacto en los procesos comerciales.
+                            Un Analista Funcional Senior desempeña un papel fundamental en el éxito del proyecto al garantizar que las soluciones propuestas cumplan con los requisitos del cliente y contribuyan al logro de los objetivos comerciales</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="card">
-            
-            <div class="card-body">
-                <h5 class="card-title">Esteban Ferrari</h5>
-                <p class="card-text">Developer</p>
-            </div>
-        </div>
-        <div class="card">
-            
-            <div class="card-body">
-                <h5 class="card-title">Cinthia Sabino</h5>
-                <p class="card-text">Analista funcional</p>
-            </div>
-        </div>
-    </div>
-</section>
+    
+        <!-- Modales para otras tarjetas -->
+    </section>
+    
         
 
         <section id="tema-2">
             <h2>Tecnologias</h2>
-            <p>Descripción del Tema 2...</p>
-            <!-- Espacio para describir el Tema 2 -->
+            <h5>Estas son las tecnologias usadas en esto proyecto.</h5>
+            <div id="imagen-container" class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-2">
+                        <img src="angular y typescript.jpg" alt="Imagen 1" class="img-fluid">
+                    </div>
+                   
+                    <div class="col-md-2">
+                        <img src="github.png" alt="Imagen 3" class="img-fluid">
+                    </div>
+                    
+                </div>
+            </div>
+            <div id="imagen-container" class="container">
+                <div class="row justify-content-center">
+                   
+                    <div class="col-md-2">
+                        <img src="jira.png" alt="Imagen 4" class="img-fluid">
+                    </div>
+                    <div class="col-md-2">
+                        <img src="mongo.png" alt="Imagen 5" class="img-fluid">
+                    </div>
+                    <div class="col-md-2">
+                        <img src="node.png" alt="Imagen 6" class="img-fluid">
+                    </div>
+                </div>
+            </div>
         </section>
         
         <section id="tema-3">
-            <h2>Alcance del Proyecto:</h2>
+            <h3>PLAN DE GESTIÓN DEL ALCANCE</h3>
+                <p>Este plan determina y especifica los mecanismos a implementar para definir el alcance del proyecto y para asegurar que el mismo esté bajo control en todo momento, haciendo que todos los cambios que se proponen sean evaluados y eventualmente aprobados por el equipo.
+                La evaluación mencionada tiene especial relevancia porque incluye el impacto sobre el resto de los componentes de la configuración del proyecto, y no solamente el impacto del cambio en sí mismo.
+                La autoridad para aceptar, rechazar o posponer un cambio propuesto por cualquiera de los stakeholders (partes involucradas) será analizada y acordada en el respectivo al equipo.</p>
             <h4>1. Objetivo del Proyecto:</h4>
+                <p>Desarrollar una solución informática en línea de intercambio de productos o servicios
+                    Implementar una base de datos para el registro de usuarios, productos y transacciones.
+                    Documentar el desarrollo del sistema contemplando a posteriori el mantenimiento del mismo.
+                    Cumplir con el cronograma propuesto del proyecto y entrega del producto.
+                    </p>
                <p>Desarrollar una plataforma en línea, denominada DondeDeal, que utilice tecnología avanzada para proporcionar a los usuarios una herramienta eficiente para encontrar las mejores ofertas y precios de diversos productos en diferentes tiendas en línea.</p>
             <h4> 2. Funcionalidades Principales:</h4>
             <h5>2.1. Búsqueda de Productos:</h5>
@@ -195,22 +600,127 @@
 
         </section>
         <section id="tema-5">
-            <h2>Historia de Usuario</h2>
+            <h3>Historia de Usuario</h3>
             <h5>Contexto:</h5>
                 <p>Se requiere crear un login de usuario, para eso precisamos disponibilizar el endpoint con los atributos de usuario. Crear un FE de login con el campo username y password. Con los botones para ingresar y otro recuperar contraseña.</p>
                 
-            <h5>Requerimientos del FE:</h5>
-                
-                <p>-Crear un campo usuario y debajo, un campo password.</p>
-                <p></p>-Crear botón para ingresar y otro para recuperar contraseña
-                <p></p>-El botón para ingresar se debe mantener bloqueado hasta que detecte que estén los dos campos completos.
-                          
+           
+            <h3>Requerimientos del Usuario (algunos)</h3>
+
+            <h5>1. Registro de Usuario:</h5>
+            <ul>
+              <li>Los usuarios deben poder registrarse en el sitio.</li>
+              <li>Se requiere un proceso de verificación de correo electrónico.</li>
+              <li>Los usuarios deben tener la opción de recuperar su contraseña.</li>
+            </ul>
+          
+            <h5>2. Inicio de Sesión:</h5>
+            <ul>
+              <li>Los usuarios deben poder iniciar sesión de manera segura.</li>
+              <li>Integración con redes sociales para iniciar sesión.</li>
+            </ul>
+          
+            <h5>3. Exploración de Productos:</h5>
+            <ul>
+              <li>Los usuarios deben poder navegar y buscar productos fácilmente.</li>
+              <li>Funcionalidad de filtrado por categorías, precios, marcas, etc.</li>
+              <li>Búsqueda avanzada para encontrar productos específicos.</li>
+            </ul>
+          
+            <h5>4. Detalles del Producto:</h5>
+            <ul>
+              <li>Información detallada sobre cada producto.</li>
+              <li>Imágenes de alta calidad del producto.</li>
+              <li>Reseñas y calificaciones de productos.</li>
+            </ul>
+          
+            <h5>5. Carrito de Compras:</h5>
+            <ul>
+              <li>Capacidad para agregar y eliminar productos del carrito.</li>
+              <li>Mostrar el total del carrito y el subtotal.</li>
+              <li>Opción para aplicar códigos de descuento.</li>
+            </ul>
+            <h5>6. Proceso de Pago:</h5>
+            <ul>
+              <li>Ofrecer múltiples opciones de pago (tarjeta de crédito, PayPal, transferencia bancaria, etc.).</li>
+              <li>Seguridad y encriptación de datos durante el proceso de pago.</li>
+              <li>Confirmación de pedido por correo electrónico después de completar el pago.</li>
+            </ul>
+          
+            <h5>7. Cuenta de Usuario:</h5>
+            <ul>
+              <li>Capacidad para gestionar la información de la cuenta (perfil, direcciones de envío, preferencias, etc.).</li>
+              <li>Historial de pedidos y seguimiento de envíos.</li>
+            </ul>
+          
+            <h5>8. Interfaz Responsiva:</h5>
+            <ul>
+              <li>Compatibilidad con dispositivos móviles y tabletas.</li>
+              <li>Experiencia de usuario consistente en diferentes tamaños de pantalla.</li>
+            </ul>
+          
+            <h5>9. Atención al Cliente:</h5>
+            <ul>
+              <li>Canal de comunicación para consultas y problemas (chat en vivo, formulario de contacto, etc.).</li>
+              <li>Base de conocimientos o sección de preguntas frecuentes.</li>
+            </ul>
+          
+            <h5>10. Personalización de la Experiencia:</h5>
+            <ul>
+              <li>Opciones de personalización de productos (colores, tallas, grabados, etc.).</li>
+              <li>Recomendaciones personalizadas según el historial de compras.</li>
+            </ul>  
+                 
+            <h5>Casos de Uso del Cliente:</h5>
+
+    <p>
+        <strong>1. Registrarse:</strong><br>
+        <span>Descripción: Permite a un cliente nuevo crear una cuenta en el sistema proporcionando la información necesaria, como nombre, correo electrónico y contraseña.</span><br>
+        <span>Flujo Principal:</span>
+        <ol>
+            <li>El cliente accede a la página de registro.</li>
+            <li>Ingresa la información requerida.</li>
+            <li>El sistema valida la información y crea la cuenta del cliente.</li>
+        </ol>
+    </p>
+    <p>
+    <strong>2. Iniciar Sesión:</strong><br>
+        <span>Descripción: Permite a un cliente iniciar sesión en su cuenta para acceder a funciones personalizadas y realizar compras.</span><br>
+        <span>Flujo Principal:</span>
+        <ol>
+            <li>El cliente ingresa su correo electrónico y contraseña.</li>
+            <li>El sistema valida las credenciales y autentica al cliente.</li>
+            
+        </ol>
+    </p>
+
+    <h5>Casos de Uso del Administrador:</h5>
+
+    <p>
+        <strong>1. Gestionar Productos:</strong><br>
+        <span>Descripción: Permite al administrador agregar, eliminar o modificar productos en el catálogo.</span><br>
+        <span>Flujo Principal:</span>
+        <ol>
+            <li>El administrador accede a la sección de gestión de productos.</li>
+            <li>Realiza las acciones necesarias (agregar, eliminar, modificar).</li>
+        </ol>
+    </p>
+    <p>
+        <strong>2. Modificar Productos Existente:</strong><br>
+        <span>Descripción: Permite al administrador realizar cambios en la información de productos existentes.</span><br>
+        <span>Flujo Principal:</span>
+        <ol>
+            <li>El administrador selecciona un producto existente</li>
+            <li>Realiza las modificaciones necesarias.</li>
+            <li>Guarda los cambios.</li>
+        </ol>
+    </p>
         </section>
         <section id="tema-6">
             
-            <h2>Gestion de Problemas</h2>
+            <h2>Gestion de riesgos</h2>
             
-            <h4>1. Gestión de Problemas:</h4>
+            <h4>1. Gestión de Riesgos:</h4>
                 <p>● En el contexto de la metodología ágil, la gestión de problemas es esencial para abordar cualquier obstáculo que pueda surgir durante el desarrollo del proyecto. Se seguirán los siguientes procedimientos:</p>
             
                 <h5>1.1. Identificación de Problemas:</h5>
@@ -344,37 +854,37 @@
     </section>
 </section>
 <section id="tema-8">
-    <h2>nombre</h2>
-    <h5>grrgrg</h5>
-        <p>edeedededeed</p>
-    <h5>ccccccccc</h5>
-    <p>●	</p>
-                <p>● </p>
-                <p>● </p><p>● </p><p>● </p>
-                <p>● </p>
-                <p>●	</p>
-                <p>● </p>
-                <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
+    <h2>Procedimientos de Gestión</h2>
+    <h5>Proceso de Desarrollo Ágil:</h5>
+        <p>Seguir el ciclo de vida ágil con sprints bien definidos, y realizar reuniones diarias de seguimiento para mantener a todos en el equipo actualizados sobre el progreso.</p>
+    
+    <h5>Herramientas de Gestión de Proyectos:</h5>
+    
+                <p>Utilizar herramientas de gestión de proyectos, como tableros Kanban o herramientas específicas de seguimiento de problemas, para visualizar el progreso y gestionar tareas.</p>
+    <h5>Actualización Continua de Documentación:</h5>
+        <p>Mantener documentación actualizada, incluyendo manuales de usuario, para reflejar cambios y mejoras en el sistema.
+        </p>
+        <p>Asegurarse de que todos los miembros del equipo tengan acceso a la documentación relevante.</p>
+    <h5>Pruebas y Control de Calidad:</h5>
+        <p>Integrar pruebas continuas en el desarrollo para identificar posibles problemas de calidad.</p>
+        <P>Establecer procedimientos de control de calidad para garantizar que cada incremento cumpla con los estándares establecidos.</P>
+    <h5>Comunicación Efectiva:</h5>
+        <p>Facilitar una comunicación abierta y transparente dentro del equipo.</p>
+        <p>Programar reuniones regulares para discutir avances, obstáculos y soluciones potenciales.</p>
+    <h5>Revisión de Hitos y Planificación Futura:</h5>
+        <p>Realizar revisiones periódicas de hitos alcanzados y evaluar el progreso hacia los objetivos del proyecto.</p>
+        <p>Ajustar la planificación futura según las lecciones aprendidas y los cambios en los requisitos.</p>
+    
+       
 </section>
 </section>
-<section id="tema-9">
-    <h2>nombre</h2>
-    <h5>grrgrg</h5>
-        <p>edeedededeed</p>
-    <h5>ccccccccc</h5>
-        <p></p>
-        <p></p>
-        <p></p>
-</section>
-        <!-- Agrega más secciones según tus temas -->
-    </main>
+
 
     <footer>
         <p>© 2023 DoneDeal</p>
     </footer>
+
+      
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>

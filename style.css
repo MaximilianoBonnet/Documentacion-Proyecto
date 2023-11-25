@@ -112,20 +112,20 @@ main section#tema-1 .card {
     flex: 0 0 300px; /* Fuerza un ancho fijo de 300px para todas las tarjetas */
     margin: 10px;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
-    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 10px; 
     overflow: hidden;
-    background-color: #f1f1f1; /* Color de fondo plateado */
-    transform: perspective(1000px) rotateX(20deg); /* Efecto tridimensional */
+    background-color: #f1f1f1; 
+    transform: perspective(1000px) rotateX(20deg); 
     transition: transform 0.5s;
 }
 
 main section#tema-1 .card:hover {
-    transform: perspective(1000px) rotateX(0deg); /* Efecto tridimensional en hover */
+    transform: perspective(1000px) rotateX(0deg); 
 }
 
 main section#tema-1 .card img {
-    max-width: 100%; /* Imágenes dentro de las tarjetas al 100% del ancho */
+    max-width: 100%; 
     height: auto;
 }
 
@@ -141,4 +141,21 @@ main section#tema-1 .card-title {
 
 main section#tema-1 .card-text {
     color: #34495e;
+}
+
+#descargarExcel {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#imagen-container {
+    text-align: center;
+}
+
+#imagen-container img {
+    width: 200px; 
+    height: 100px; 
+    margin: 10px;
+    border-radius: 5px;
 }
