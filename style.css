@@ -7,17 +7,45 @@ body {
     text-align: center;
 }
 
+/* Estilos mejorados para el encabezado */
 header {
-    background-color: #34495e;
+    background-color: #2c3e50; /* Color de fondo más oscuro */
     color: #fff;
     padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5em; /* Tamaño del texto del encabezado */
 }
 
 header img {
-    max-width: 100px;
+    max-width: 80px; /* Reducción del tamaño de la imagen */
     height: auto;
     margin-top: 10px;
 }
+
+header nav {
+    display: flex;
+    gap: 20px;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px; /* Tamaño del texto de los enlaces */
+    transition: color 0.3s;
+}
+
+header a:hover {
+    color: #3498db; /* Cambia el color al pasar el mouse */
+}
+
 
 nav {
     background-color: #2c3e50;
@@ -39,64 +67,98 @@ main {
     padding: 20px;
 }
 
+/* Estilos mejorados para el pie de página */
 footer {
-    background-color: #34495e;
+    background-color: #2c3e50; /* Color de fondo más oscuro */
     color: #fff;
     padding: 1em;
-    text-align: center
-}
-
-/* Estilos para la sección de índice */
-main section#indice {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-main section#indice ul {
+footer p {
     margin: 0;
-    padding: 0;
+    font-size: 16px; /* Tamaño del texto del pie de página */
 }
 
-main section#indice li {
-    margin-bottom: 10px;
-}
-
-main section#indice a {
-    color: #100f0f;
+footer a {
+    color: #fff;
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s;
 }
 
-main section#indice a:hover {
-    color: #3498db;
+footer a:hover {
+    color: #3498db; /* Cambia el color al pasar el mouse */
 }
 
-/* Estilos para cada sección de tema */
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+footer li {
+    display: inline;
+}
+
+
+/* Estilos mejorados para la sección de índice */
+main section#indice {
+    text-align: center;
+    padding: 50px;
+    background-color: #2d2d2d; /* Fondo oscuro */
+    color: #fff; /* Texto blanco */
+}
+
+main section#indice ul {
+    list-style: none;
+    padding: 0;
+}
+
+main section#indice li {
+    margin-bottom: 15px;
+}
+
+main section#indice a {
+    color: #66ccff; /* Color del texto */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px; /* Tamaño del texto */
+    transition: color 0.3s;
+}
+
+main section#indice a:hover {
+    color: #4080bf; /* Cambia el color al pasar el mouse */
+}
+
+
+/* Estilos mejorados para cada sección de tema */
 main section {
     margin: 20px auto; /* Centra cada sección */
     max-width: 800px; /* Limita el ancho para mejorar la legibilidad */
-    background-color: #c0bebe;
+    background-color: #2c3e50; /* Color de fondo más oscuro */
     padding: 20px;
     border-radius: 10px; /* Bordes redondeados */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    color: #66ccff; /* Color del texto */
 }
 
-/* Estilo para los títulos de las secciones de tema */
+/* Estilo mejorado para los títulos de las secciones de tema */
 main section h2 {
-    color: #2c3e50;
+    color: #3498db; /* Color de título más atractivo */
+    margin-bottom: 15px; /* Espaciado inferior para separar del contenido */
 }
 
-/* Estilo para los párrafos de las secciones de tema */
+/* Estilo mejorado para los párrafos de las secciones de tema */
 main section p {
-    color: #34495e;
-}
-
-/* Estilos para la sección de tarjetas (card-deck) en Tema 1 */
-main section#tema-1 .card-deck {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-color: #5f925f; 
+    color: #66ccff; /* Color del texto */
+    line-height: 1.6; /* Altura de línea mejorada para una mejor legibilidad */
 }
 
 
@@ -115,7 +177,7 @@ main section#tema-1 .card {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     border-radius: 10px; 
     overflow: hidden;
-    background-color: #f1f1f1; 
+    background-color: #0e3052; /* Color de fondo más oscuro */ 
     transform: perspective(1000px) rotateX(20deg); 
     transition: transform 0.5s;
 }
@@ -134,7 +196,7 @@ main section#tema-1 .card-body {
 }
 
 main section#tema-1 .card-title {
-    color: #2c3e50;
+    color: #e7edf3;
     font-size: 1.5em;
     margin-bottom: 10px;
 }
@@ -143,30 +205,35 @@ main section#tema-1 .card-text {
     color: #34495e;
 }
 
-#descargarExcel {
-    padding: 10px;
-    font-size: 16px;
-    cursor: pointer;
+/* Estilos para el contenido del modal */
+main section#tema-1 .modal-body {
+    color: #393939; /* Color de texto metálico negro */
 }
 
-#imagen-container {
-    text-align: center;
+/* Estilos para los títulos dentro del modal */
+main section#tema-1 .modal-body h6 {
+    color: #3498db; /* Color del título más atractivo */
 }
 
-#imagen-container img {
-    width: 200px; 
-    height: 100px; 
-    margin: 10px;
-    border-radius: 5px;
+/* Estilo para el párrafo dentro del modal */
+main section#tema-1 .modal-body p {
+    color: #2d2c2c; /* Color de texto metálico negro */
+    margin-bottom: 15px;
 }
-#miPagina {
-    font-family: 'Arial, sans-serif';
-    color: #333;
-  }
-  
-  h1 {
-    color: #008080;
-  }
+
+/* Estilos para el botón de cerrar dentro del modal */
+main section#tema-1 .modal-body .btn-secondary {
+    background-color: #165e8e; /* Fondo del botón */
+    color: #474242; /* Color del texto del botón */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Esquinas redondeadas */
+    transition: background-color 0.3s; /* Transición suave del color de fondo */
+}
+
+main section#tema-1 .modal-body .btn-secondary:hover {
+    background-color: #2076a8; /* Cambia el color de fondo al pasar el mouse */
+}
+
 
 /* Estilos para el botón */
 #descargarPDF {
