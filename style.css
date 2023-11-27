@@ -159,3 +159,26 @@ main section#tema-1 .card-text {
     margin: 10px;
     border-radius: 5px;
 }
+#miPagina {
+    font-family: 'Arial, sans-serif';
+    color: #333;
+  }
+  
+  h1 {
+    color: #008080;
+  }
+
+/* Estilos para el botón */
+#descargarPDF {
+    background-color: #008080;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  #descargarPDF:hover {
+    background-color: #006666;
+  }  
