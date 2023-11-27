@@ -57,4 +57,8 @@ setInterval(actualizarReloj, 1000);
 
 // Llamada inicial para que el reloj se actualice inmediatamente al cargar la página
 actualizarReloj();
-
+function irAIndice() {
+    document.getElementById('indice').scrollIntoView({
+        behavior: 'smooth'
+    });
+}

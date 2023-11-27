@@ -256,3 +256,20 @@ main section#tema-1 .modal-body .btn-secondary:hover {
     color: #fff;
     padding: 10px;
 } 
+/* Estilos para el botón "Volver" */
+.volver-btn {
+    position: fixed;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: 1px solid #3498db;
+    color: #3498db;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.volver-btn:hover {
+    background-color: #3498db;
+    color: #fff;
+}
