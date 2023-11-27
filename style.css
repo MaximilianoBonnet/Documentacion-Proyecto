@@ -248,4 +248,10 @@ main section#tema-1 .modal-body .btn-secondary:hover {
   
   #descargarPDF:hover {
     background-color: #006666;
-  }  
+  } 
+/* Estilos para el reloj digital en la barra de navegación */
+#reloj {
+    font-size: 18px;
+    color: #fff;
+    padding: 10px;
+} 

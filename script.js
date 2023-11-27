@@ -41,4 +41,20 @@ function descargarArchivo() {
   
     document.body.removeChild(enlaceDescarga);
   }
- 
+ // Función para actualizar el reloj cada segundo
+function actualizarReloj() {
+    const reloj = document.getElementById("reloj");
+    const ahora = new Date();
+    const horas = ahora.getHours().toString().padStart(2, '0');
+    const minutos = ahora.getMinutes().toString().padStart(2, '0');
+    const segundos = ahora.getSeconds().toString().padStart(2, '0');
+    const tiempoActual = `${horas}:${minutos}:${segundos}`;
+    reloj.textContent = tiempoActual;
+}
+
+// Actualizar el reloj cada segundo
+setInterval(actualizarReloj, 1000);
+
+// Llamada inicial para que el reloj se actualice inmediatamente al cargar la página
+actualizarReloj();
+
