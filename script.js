@@ -41,34 +41,4 @@ function descargarArchivo() {
   
     document.body.removeChild(enlaceDescarga);
   }
-  // Selecciona el elemento HTML que deseas convertir
-const element = document.getElementById('miPagina');
-
-// Crea un nuevo documento PDF
-const pdf = new jsPDF();
-
-// Convierte el contenido HTML a PDF
-pdf.html(element, {
-  callback: function (pdf) {
-    // Guarda el PDF con un nombre específico
-    pdf.save('mi_archivo.pdf');
-  }
-});
-
-// Selecciona el botón y el elemento HTML que deseas convertir
-const botonDescargar = document.getElementById('descargarPDF');
-const element = document.getElementById('miPagina');
-
-// Crea un nuevo documento PDF
-const pdf = new jsPDF();
-
-// Agrega un evento de clic al botón
-botonDescargar.addEventListener('click', function () {
-  // Convierte el contenido HTML a PDF
-  pdf.html(element, {
-    callback: function (pdf) {
-      // Guarda el PDF con un nombre específico
-      pdf.save('mi_archivo.pdf');
-    }
-  });
-});
+ 
